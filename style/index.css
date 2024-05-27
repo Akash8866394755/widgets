@@ -1,0 +1,47 @@
+body {
+padding: 0;
+margin: 0;
+}
+* {
+    font-family: Poppins;
+}#card {
+    width: 350px;
+    height: auto;
+    border-radius: 3px;
+    background: linear-gradient(90deg,
+     #4b6cb7 0%, #182848 100%);
+    margin: 200px auto;
+    display: flex;
+    color: #ffff;
+    flex-direction: column;
+    padding: 5px;box-shadow:0 0 10px
+     0 #ddd;
+}
+#opt {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+#opt button{
+    border: none;
+    background: transparent;
+    padding: 12px 33px;
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+#setting, #account {
+    display: none;
+}
+#home, #setting, #account {
+    padding: 20px;
+}
+#home, #setting, #account p {
+    font-size: 19px;
+    word-spacing: 3px;
+    word-break: keep-all;
+    padding: 6px 6px;
+    margin: 0;
+}
+
